@@ -21,8 +21,8 @@ def monopoly_with_second_tier
   monopoly = {
     :railroads => {
       :pieces => 4,
-      :rent_in_dollars => {},
-      :names => {}
+      :names => {},
+      :rent_in_dollars => {}
     }
   }
 
@@ -74,7 +74,7 @@ def monopoly_with_fourth_tier
           "mortgage_value" => "$400"
         },
         :shortline => {
-          "mortgage_value" => "$800"    
+          "mortgage_value" => "$800"
         }
       }
     }
